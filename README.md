@@ -36,7 +36,7 @@ Time spent: 20 hours spent in total
   - Vulnerability types: XSS
   - Tested in version: 
   - Fixed in version: 4.2.13
-- [ ] GIF Walkthrough: <img src="" alt="">
+- [ ] GIF Walkthrough: <img src="xss_youtubelinlkvulnerability.gif" alt="XSS Using Youtube Link">
 - [ ] Steps to recreate: Create post and add [embed src='https:youtube.com/embed/12345/\x3csvg onload=alert(1)\x3e'[/embed]. I changed onload to onmouseover and posted it. After being posted anybody that passes their mouse over the "youtube" link gets an alert (1). Used this guide https://blog.sucuri.net/2017/03/stored-xss-in-wordpress-core.html
 - [ ] Affected source code: 
   - [Link 1](https://wpscan.com/vulnerability/3ee54fc3-f4b4-4c35-8285-9d6719acecf0)
