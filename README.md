@@ -14,7 +14,7 @@ Time spent: 20 hours spent in total
   - Vulnerability types: XSS (side note: I noticed Wordpress has way too many XSS vulnerabilities)
   - Tested in version: 5.1.53 and 5.5.41.
   - Fixed in version: 4.2.1
-- [ ] GIF Walkthrough: 
+- [ ] GIF Walkthrough: <img src="" alt="">
 - [ ] Steps to recreate: You need to add the following while creating your comment "<a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>". I generated some 64kb text with an online generator and followed the guide on https://klikki.fi/wordpress-4-2-core-stored-xss/
 - [ ] Affected source code:
   - [Link 1] (https://wpscan.com/vulnerability/8051e64b-f73e-45ce-a853-02b8e425155b)
@@ -25,7 +25,7 @@ Time spent: 20 hours spent in total
   - Vulnerability types: XSS
   - Tested in version: 4.5.3
   - Fixed in version: 4.2.10
-- [ ] GIF Walkthrough: 
+- [ ] GIF Walkthrough: <img src="" alt="">
 - [ ] Steps to recreate: Upload file with malicious Javascript code "cengizhansahinsumofpwn<img src=a onerror=alert(document.cookie)>.jpg" and made a post. Followed this guide https://sumofpwn.nl/advisory/2016/persistent_cross_site_scripting_vulnerability_in_wordpress_due_to_unsafe_processing_of_file_names.html
 - [ ] Affected source code:
   - [Link 1] (https://wpscan.com/vulnerability/e84eaf3f-677a-465a-8f96-ea4cf074c980)
@@ -36,7 +36,7 @@ Time spent: 20 hours spent in total
   - Vulnerability types: XSS
   - Tested in version: 
   - Fixed in version: 4.2.13
-- [ ] GIF Walkthrough: 
+- [ ] GIF Walkthrough: <img src="" alt="">
 - [ ] Steps to recreate: Create post and add [embed src='https:youtube.com/embed/12345/\x3csvg onload=alert(1)\x3e'[/embed]. I changed onload to onmouseover and posted it. After being posted anybody that passes their mouse over the "youtube" link gets an alert (1). Used this guide https://blog.sucuri.net/2017/03/stored-xss-in-wordpress-core.html
 - [ ] Affected source code: 
   - [Link 1](https://wpscan.com/vulnerability/3ee54fc3-f4b4-4c35-8285-9d6719acecf0)
