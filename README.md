@@ -25,7 +25,7 @@ Time spent: 20 hours spent in total
   - Vulnerability types: XSS
   - Tested in version: 4.5.3
   - Fixed in version: 4.2.10
-- [ ] GIF Walkthrough: <img src="" alt="">
+- [ ] GIF Walkthrough: <img src="xss_imagevulnerability.gif" alt="XSS Using Image">
 - [ ] Steps to recreate: Upload file with malicious Javascript code "cengizhansahinsumofpwn<img src=a onerror=alert(document.cookie)>.jpg" and made a post. Followed this guide https://sumofpwn.nl/advisory/2016/persistent_cross_site_scripting_vulnerability_in_wordpress_due_to_unsafe_processing_of_file_names.html
 - [ ] Affected source code:
   - [Link 1] (https://wpscan.com/vulnerability/e84eaf3f-677a-465a-8f96-ea4cf074c980)
